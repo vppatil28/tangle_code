@@ -1,0 +1,35 @@
+0.3
+1e6
+0.2
+0.3
+1e2
+90
+8.5
+57
+59
+
+Inputs are in the following order:
+
+Radius, h
+Young's modulus, E
+Density, \rho
+Poisson's ratio, \nu
+Viscous damping parameter, \eta
+Friction damping parameter, \zeta
+Skindrag, \gamma_d
+Random force strength, D_b
+Random torque strength, D_tw
+
+The above default values correspond to:
+
+h = 0.3; %radius of the rod
+E = 10^6; %elastic modulus
+rho = 0.2;  %density
+nu = 0.3; %Poisson's ratio
+eta = 10^2;  %2nd derivative damping parameter
+zeta = 90; %friction damping parameter
+skindrag = 8.5; %skin drag
+D_b = 57; %variance of random force on rod
+D_tw = 59; %variance of random torque on rod
+
+

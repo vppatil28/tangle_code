@@ -1,0 +1,11 @@
+8_worms.mat
+
+Write the name of the initial condition file on the top line
+
+21_worms_tangled_IC.mat is a good initial condition for worm_simulator_fast.m, the other initial conditions work better with worm_simulator.m
+
+An initial condition file must contain the following:
+
+1) W0, a 3N x n array. N is the number of filaments, n is the number of discrete points along each filament. Each 3 x n array in W0 is a separate filament, e.g. rows 1-3 are filament 1, rows 4-6 are filament 2, etc. Every point of W0 needs to be in the upper half space, e.g. have z > 2h, where h is the filament radius. For good results, the spacing of points along each filament should be the constant and equal to 2h for each filament.
+
+2) diskR, the radius of the cylindrical container in which the simulation takes place. All points of W0 should lie inside diskR.

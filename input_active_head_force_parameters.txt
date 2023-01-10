@@ -1,0 +1,26 @@
+2
+31.42
+1e4
+20
+0.1
+
+
+
+
+
+Inputs are in the following order
+Chirality number, \gamma
+Turning rate, \alpha
+Head force magnitude, q
+Rotational noise, D_R
+Head force noise, D_F
+
+The above default values correspond to:
+
+\gamma = 2;
+\alpha = 10*pi;
+q = 10^4;
+poissonD_R = 20; 
+poissonD_F = 10^(-1); 
+
+
